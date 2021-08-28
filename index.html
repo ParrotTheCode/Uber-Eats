@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Uber Eats Stores</title>
+</head>
+
+<body>
+  <header>
+    <a class="logo" href="./index.html"><img src="/img/logo.svg" alt="Logo"></a>
+    <div class="header-buttons">
+      <button class="signin">Sign In</button>
+      <button class="register">Register</button>
+    </div>
+    <a class="busket" href="#"><img src="/img/basket.svg" alt="Busket icon"></a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <input class="search" type="text" placeholder="Search for restaurant or cuisine">
+    </section>
+    <section>
+      <div class="inputs">
+        <p>When</p>
+        <p>To</p>
+        <input type="text" class="time-input">
+        <input type="text" class="adress-input">
+      </div>
+    </section>
+    <section>
+      <h2>Moscow Restaurants</h2>
+      <! -- непонятно как сделать всю область карточки кликабельной -->
+        <div class="card-restoraunt">
+          <! -- srcset для адаптива? -->
+            <img src="/img/stores/card-mobile.jpg" alt="Макдоналдс — Газетный">
+            <h3>Макдоналдс — Газетный</h3>
+            <h4>₽₽ • Бургеры</h4>
+            <h5>25 - 35 Min</h5>
+        </div>
+        <! -- здесь ещё 8 карточек -->
+    </section>
+    <footer>
+      <img class="footer-logo" src="/img/white-logo.svg" alt="Logo">
+      <select name="language">
+        <option value="English" selected></option>
+        <option value="Russian"></option>
+      </select>
+      <p class="footer-logo-text">#UberEats</p>
+      <div class="footer-social">
+        <a class="social-logo" href="#"><img src="./img/facebook.svg" alt="facebook"></a>
+        <a class="social-logo" href="#"><img src="./img/twitter.svg" alt="Twitter"></a>
+        <a class="social-logo" href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
+        <div class="footer-links">
+          <a href="#">About UberEats</a>
+          <a href="#">Become a Delivery Partner</a>
+          <a href="#">Become a Restaurant Partner</a>
+          <a href="#">See all cities</a>
+          <a href="#">Pricing</a>
+          <a href="#">Pricing</a>
+          <a href="#">Help</a>
+          <a href="#">FAQs</a>
+        </div>
+        <div class="footer-apps">
+          <a href="#"><img src="./img/appstore.jpg" alt="App Store"></a>
+          <a href="#"><img src="./img/googleplay.jpg" alt="Google Play"></a>
+        </div>
+        <div class="subfooter">
+          <p>© 2017 Uber Technologies Inc.</p>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+        <div class="button-arow">
+          <! -- как проскроллить страницу вверх? -->
+            <a href="#"><img src="./img/arrow.svg" alt="Up"></a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
