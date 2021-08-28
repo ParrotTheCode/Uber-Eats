@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.adress-input {
+  background-image: url(/img/location.svg)
+}
+
+.search {
+  background-image: url(/img/search.svg)
+}
+.footer-logo {
+  border-bottom-width: 1;
+border-color: #979797;}
