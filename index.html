@@ -22,27 +22,27 @@
 
   <main>
     <section id="search">
-      <input class="search" type="label" placeholder="Search for restaurant or cuisine">
+      <input class="search" type="text" placeholder="Search for restaurant or cuisine">
     </section>
     <section>
       <div class="order-controls">
         <div class="time">
           <p>When</p>
-          <div class="palce">
-          </div>
-          <input type="label" class="booking-time">
-          <p>To</p>
+          <label>ASAP<input type="text" class="booking-time"></label>
         </div>
-        <input type="label" class="booking-place">
+        <div class="palce">
+          <p>To</p>
+          <label>ul. Bolshaya Dmitrovka,22<input type="text" class="booking-place"></label>
+        </div>
       </div>
     </section>
     <section>
       <h2>Moscow Restaurants</h2>
-      <div class="all-restaurant-card">
+      <div class="restaurants-list">
         <div class="restaurant-card">
           <a href="#">
             <img src="/img/stores/card-mobile.jpg" alt="Макдоналдс — Газетный">
-            <span class="restoraunt-name">Макдоналдс — Газетный</span>
+            <h3>Макдоналдс — Газетный</h3>
             <span class="restoraunt-details">₽₽ • Бургеры</span>
             <span class="restoraunt-name">25 - 35 Min</span>
           </a>
@@ -50,7 +50,7 @@
         <div class="restaurant-card">
           <a href="#">
             <img src="/img/stores/card-mobile.jpg" alt="DimSum & Co — ЦДМ">
-            <span class="restoraunt-name">DimSum & Co — ЦДМ</span>
+            <h3>DimSum & Co — ЦДМ</h3>
             <span class="restoraunt-details">₽ • Японская • Китайская • Азиатская</span>
             <span class="restoraunt-name">40 - 50 Min</span>
           </a>
@@ -58,7 +58,7 @@
         <div class="restaurant-card">
           <a href="#">
             <img src="/img/stores/card-mobile.jpg" alt="ДвижОК — Манежная">
-            <span class="restoraunt-name">ДвижОК — Манежная</span>
+            <h3>ДвижОК — Манежная</h3>
             <span class="restoraunt-details">₽ • Американская • Европейская</span>
             <span class="restoraunt-name">35 - 45 Min</span>
           </a>
@@ -66,7 +66,7 @@
         <div class="restaurant-card">
           <a href="#">
             <img src="/img/stores/card-mobile.jpg" alt=НЯ — NHA>
-            <span class="restoraunt-name">НЯ — NHA</span>
+            <h3>НЯ — NHA</h3>
             <span class="restoraunt-details">₽₽ • Вьетнамская</span>
             <span class="restoraunt-name">30 - 40 Min</span>
           </a>
@@ -81,16 +81,20 @@
         <option value="English" selected></option>
         <option value="Russian"></option>
       </select>
-      <p class="footer-hashtag">#UberEats</p>
-      <div class="footer-social-links">
-        <a class="social-link" href="#"><img src="./img/facebook.svg" alt="Uber Eats Facebook page"></a>
-        <a class="social-link" href="#"><img src="./img/twitter.svg" alt="Uber Eats Twitter page"></a>
-        <a class="social-link" href="#"><img src="./img/instagram.svg" alt="Uber Eats Instagram page"></a>
+      <div class="footer-social">
+        <p class="footer-hashtag">#UberEats</p>
+        <div class="footer-social-links">
+          <a class="social-link" href="#"><img src="./img/facebook.svg" alt="Uber Eats Facebook page"></a>
+          <a class="social-link" href="#"><img src="./img/twitter.svg" alt="Uber Eats Twitter page"></a>
+          <a class="social-link" href="#"><img src="./img/instagram.svg" alt="Uber Eats Instagram page"></a>
+        </div>
       </div>
-      <div class="footer-links">
+      <div class="footer-links-about">
         <a href="#">About UberEats</a>
         <a href="#">Become a Delivery Partner</a>
         <a href="#">Become a Restaurant Partner</a>
+      </div>
+      <div class="footer-links-pages">
         <a href="#">See all cities</a>
         <a href="#">Pricing</a>
         <a href="#">Help</a>
@@ -101,6 +105,7 @@
         <a href="#"><img src="./img/googleplay.jpg" alt="Google Play"></a>
       </div>
       <div class="footer-common-info">
+
         <p>© 2017 Uber Technologies Inc.</p>
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
@@ -109,6 +114,7 @@
         <a href="#search"><img src="./img/arrow.svg" alt="Footer button top"></a>
       </div>
   </footer>
+
 </body>
 
 </html>
